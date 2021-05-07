@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">Bill Please</string>
+    <string name="amount">Amount</string>
+    <string name="enter_total_amount">Enter total amount</string>
+    <string name="number_of_pax">Number of Pax</string>
+    <string name="enter_total_pax">Enter total pax</string>
+    <string name="service_charge">Service Charge</string>
+    <string name="no_svs">No SVS</string>
+    <string name="add_svs">Add SVS</string>
+    <string name="gst">GST</string>
+    <string name="no_gst">No GST</string>
+    <string name="add_gst">Add GST</string>
+    <string name="discount">Discount(%)</string>
+    <string name="cash">Cash</string>
+    <string name="paynow">PayNow</string>
+    <string name="split">SPLIT</string>
+    <string name="reset">RESET</string>
+    <string name="total_bill">Total Bill: $</string>
+    <string name="each_pay">Each Pay: $</string>
 
 </resources>

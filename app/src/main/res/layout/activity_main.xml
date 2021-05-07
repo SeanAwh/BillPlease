@@ -10,28 +10,28 @@
         android:id="@+id/amountView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Amount" />
+        android:text="@string/amount" />
 
     <EditText
         android:id="@+id/amountInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter total amount"
+        android:hint="@string/enter_total_amount"
         android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/numPaxView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Number of Pax" />
+        android:text="@string/number_of_pax" />
 
     <EditText
         android:id="@+id/numPaxInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter total pax"
+        android:hint="@string/enter_total_pax"
         android:inputType="textPersonName" />
 
     <LinearLayout
@@ -44,18 +44,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Service Charge"
-            android:textOff="No SVS"
-            android:textOn="Add SVS" />
+            android:text="@string/service_charge"
+            android:textOff="@string/no_svs"
+            android:textOn="@string/add_svs" />
 
         <ToggleButton
             android:id="@+id/gstToggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="GST"
-            android:textOff="No GST"
-            android:textOn="Add GST" />
+            android:text="@string/gst"
+            android:textOff="@string/no_gst"
+            android:textOn="@string/add_gst" />
 
     </LinearLayout>
 
@@ -63,7 +63,7 @@
         android:id="@+id/discountView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Discount(%)" />
+        android:text="@string/discount" />
 
     <EditText
         android:id="@+id/discountInput"
@@ -83,13 +83,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Cash" />
+            android:text="@string/cash" />
 
         <RadioButton
             android:id="@+id/paynowRadio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PayNow" />
+            android:text="@string/paynow" />
     </RadioGroup>
 
     <LinearLayout
@@ -104,7 +104,7 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#2A8291"
-            android:text="SPLIT" />
+            android:text="@string/split" />
 
         <Button
             android:id="@+id/resetBtn"
@@ -113,7 +113,7 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#9F3030"
-            android:text="RESET" />
+            android:text="@string/reset" />
     </LinearLayout>
 
     <LinearLayout
@@ -125,7 +125,7 @@
             android:id="@+id/billTextview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Total Bill: $" />
+            android:text="@string/total_bill" />
 
         <TextView
             android:id="@+id/billDisplay"
@@ -142,7 +142,7 @@
             android:id="@+id/eachPayTextview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Each Pay: $" />
+            android:text="@string/each_pay" />
 
         <TextView
             android:id="@+id/eachPayDisplay"
